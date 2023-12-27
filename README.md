@@ -8,7 +8,7 @@ or
 
 yarn global add verdaccio
 
-## running verdaccio on terminal globally on your pc
+## running verdaccio on terminal globally on your pc locally
 verdaccio
 
 ## running localhost
@@ -21,7 +21,7 @@ npm adduser --registry http://localhost:4873/
 user: *********
 password: ********
 
-## publish your project to verdaccio locally on you pc
+## publish your project to verdaccio on your pc locally
 npm publish --registry http://localhost:4873/
 
 ## refresh you search engine to check your new project has been added
@@ -34,5 +34,5 @@ npm init
 npm install {your_package_name@1.0.0}
 
 
-## remove publish package from global on your local pc
+## remove publish package from global on your pc locally
 npm unpublish --force {your_package_name@1.0.0}
